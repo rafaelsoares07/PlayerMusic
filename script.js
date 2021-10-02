@@ -25,7 +25,7 @@ document.querySelector('.voltarMusica').addEventListener('click', () =>{
 		indexMusica=0
 	}
 	atualizarInfo(indexMusica);
-	console.log(indexMusica)
+	document.querySelector('progress').style.width = '0%';
 })
 
 document.querySelector('.passarMusica').addEventListener('click', () =>{
@@ -34,7 +34,7 @@ document.querySelector('.passarMusica').addEventListener('click', () =>{
 		indexMusica=2
 	}
 	atualizarInfo(indexMusica);
-	console.log(indexMusica)
+	document.querySelector('progress').style.width = '0%';
 	
 
 })

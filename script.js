@@ -26,6 +26,8 @@ document.querySelector('.voltarMusica').addEventListener('click', () =>{
 	}
 	atualizarInfo(indexMusica);
 	document.querySelector('progress').style.width = '0%';
+	document.querySelector('#pause').style.display = 'none';
+	document.querySelector('#play').style.display = 'block';
 })
 
 document.querySelector('.passarMusica').addEventListener('click', () =>{
@@ -35,6 +37,8 @@ document.querySelector('.passarMusica').addEventListener('click', () =>{
 	}
 	atualizarInfo(indexMusica);
 	document.querySelector('progress').style.width = '0%';
+	document.querySelector('#pause').style.display = 'none';
+	document.querySelector('#play').style.display = 'block';
 	
 
 })
